@@ -88,6 +88,7 @@ p {
   color: #374151;
 }
 
+/* Input and Textarea Styles */
 .form-group input,
 .form-group textarea {
   padding: 0.75rem;
@@ -97,6 +98,7 @@ p {
   font-family: inherit;
 }
 
+/* Focus Styles for Inputs and Textareas */
 .form-group input:focus,
 .form-group textarea:focus {
   outline: 2px solid #2563eb;
@@ -124,8 +126,8 @@ button[type="submit"]:hover {
 footer {
   text-align: center;
   padding: 1.5rem;
-  background-color: #ffffff;
-  border-top: 1px solid #e5e7eb;
+  background-color: #00b3ff;
+  border-top: 1px solid #00c6e4;
   color: #6b7280;
   font-size: 0.875rem;
 }
