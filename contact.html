@@ -9,35 +9,73 @@
 <body>
 
   <header>
-    <div class="logo">GYM</div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <a href="index.html" class="logo">GY<span>M</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section class="contact-container">
-      <div class="contact-image-wrapper">
-        <img src="img/homegym.jpg" alt="Home Gym Setup" class="featured-img">
-      </div>
-      
-      <div class="contact-form-wrapper">
+    <!-- Page banner -->
+    <section class="page-banner contact-banner">
+      <div class="container">
+        <span class="eyebrow">Get In Touch</span>
         <h1>Contact the GYM</h1>
-        <p>Have questions about memberships or classes? Send us a message and we'll respond as soon as possible.</p>
+        <p>Have questions about memberships or classes? We'd love to hear from you.</p>
+      </div>
+    </section>
 
+    <!-- Contact info -->
+    <section class="contact-info">
+      <div class="container grid">
+        <div class="card">
+          <div class="icon">📍</div>
+          <h3>Visit Us</h3>
+          <p>123 Main Street<br>Queens, NY 00000</p>
+        </div>
+        <div class="card">
+          <div class="icon">📞</div>
+          <h3>Call Us</h3>
+          <p>(555) 123-4567</p>
+        </div>
+        <div class="card">
+          <div class="icon">✉️</div>
+          <h3>Email Us</h3>
+          <p>info@gym.example.com</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form and hours -->
+    <section class="bg-white">
+      <div class="container split">
         <form class="contact-form">
+          <h2>Send Us a Message</h2>
+
           <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" required placeholder="Your Name">
+            <input type="text" id="name" name="name" required placeholder="Your name">
           </div>
 
           <div class="form-group">
             <label for="email">Email</label>
             <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+          </div>
+
+          <div class="form-group">
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic">
+              <option>Membership</option>
+              <option>Classes</option>
+              <option>Personal Training</option>
+              <option>Other</option>
+            </select>
           </div>
 
           <div class="form-group">
@@ -47,12 +85,25 @@
 
           <button type="submit" class="btn">Send Message</button>
         </form>
+
+        <div>
+          <img src="img/homegym.jpg" alt="Gym equipment setup">
+          <h3 style="margin-top: 2rem;">Opening Hours</h3>
+          <ul class="hours">
+            <li><strong>Monday – Friday</strong><span>5:00 AM – 11:00 PM</span></li>
+            <li><strong>Saturday</strong><span>7:00 AM – 9:00 PM</span></li>
+            <li><strong>Sunday</strong><span>8:00 AM – 8:00 PM</span></li>
+          </ul>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 GYM. All rights reserved.</p>
+    <div class="container">
+      <a href="index.html" class="logo">GY<span>M</span></a>
+      <p>&copy; 2026 GYM. All rights reserved.</p>
+    </div>
   </footer>
 
 </body>

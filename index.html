@@ -3,63 +3,201 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
+  <title>Home - GYM</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <header>
-    <div class="logo">GYM</div>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <a href="index.html" class="logo">GY<span>M</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
+
   <main>
+    <!-- Hero -->
     <section class="hero">
-      <div class="hero-content">
-        <h1>Welcome to GYM</h1>
-        <p>Transform your mind and body. We offer high-energy workouts, top-tier equipment, and personalized guidance to help you reach your goals.</p>
-        <a href="about.html" class="btn">Learn More About Us</a>
-      </div>
-      <div class="hero-image-wrapper">
-        <img src="img/gym1.jpeg" alt="Main Gym Area" class="featured-img" width="600">
+      <div class="container">
+        <span class="eyebrow">No excuses. Just results.</span>
+        <h1>Build a <span>Stronger</span> You</h1>
+        <p>Transform your mind and body with high-energy workouts, top-tier equipment, and personalized guidance to help you reach your goals.</p>
+        <div class="btn-group">
+          <a href="contact.html" class="btn">Join Today</a>
+          <a href="about.html" class="btn btn-outline">Learn More</a>
+        </div>
       </div>
     </section>
 
-<section class="highlights">
-      <div class="card">
-        <h3>Strength Training</h3>
-        <p>Full range of free weights and machines tailored for muscle growth and endurance.</p>
+    <!-- Stats -->
+    <div class="stats">
+      <div class="container">
+        <div class="stat"><strong>500+</strong><span>Active Members</span></div>
+        <div class="stat"><strong>20+</strong><span>Weekly Classes</span></div>
+        <div class="stat"><strong>10</strong><span>Expert Trainers</span></div>
+        <div class="stat"><strong>24/7</strong><span>Gym Access</span></div>
       </div>
-      <div class="card">
-        <h3>Cardio & Fitness</h3>
-        <p>High-energy cardio equipment designed to maximize endurance and calorie burn.</p>
-      </div>
-      <div class="card">
-        <h3>Personalized Programs</h3>
-        <p>Customized workout plans to fit your lifestyle and help you achieve your fitness goals.</p>
-      </div>
-      <div class="card">
-        <h3>Expert Guidance</h3>
-        <p>Work with experienced trainers dedicated to supporting your fitness journey.</p>
-      </div>
-      <div class="card">
-        <h3>Group Classes</h3>
-        <p>Engaging classes that keep you motivated and help you achieve your fitness goals.</p>
-      </div>
-      <div class="card">
-        <h3>Community & Support</h3>
-        <p>Join a welcoming community that motivates and inspires you to achieve your goals.</p>
+    </div>
+
+    <!-- What we offer -->
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">What We Offer</span>
+          <h2>Everything You Need to Succeed</h2>
+          <p>From heavy lifting to group sessions, we have the tools and people to keep you moving forward.</p>
         </div>
+
+        <div class="grid">
+          <div class="card">
+            <div class="icon">🏋️</div>
+            <h3>Strength Training</h3>
+            <p>Full range of free weights and machines tailored for muscle growth and endurance.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🏃</div>
+            <h3>Cardio &amp; Fitness</h3>
+            <p>High-energy cardio equipment designed to maximize endurance and calorie burn.</p>
+          </div>
+          <div class="card">
+            <div class="icon">📋</div>
+            <h3>Personalized Programs</h3>
+            <p>Customized workout plans to fit your lifestyle and help you achieve your fitness goals.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🎯</div>
+            <h3>Expert Guidance</h3>
+            <p>Work with experienced trainers dedicated to supporting your fitness journey.</p>
+          </div>
+          <div class="card">
+            <div class="icon">👥</div>
+            <h3>Group Classes</h3>
+            <p>Engaging classes that keep you motivated and help you achieve your fitness goals.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🤝</div>
+            <h3>Community &amp; Support</h3>
+            <p>Join a welcoming community that motivates and inspires you to achieve your goals.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why choose us -->
+    <section class="bg-white">
+      <div class="container split">
+        <img src="img/gym1.jpeg" alt="Main gym area">
+        <div>
+          <span class="eyebrow">Why Choose Us</span>
+          <h2>More Than Just a Gym</h2>
+          <p>We are a community built around progress. Whether it's your first day or your hundredth, our team is here to push you further and support you every step of the way.</p>
+          <ul class="check-list">
+            <li>Modern, well-maintained equipment</li>
+            <li>Certified personal trainers</li>
+            <li>Flexible memberships, no hidden fees</li>
+            <li>Clean, spacious, and welcoming space</li>
+          </ul>
+          <a href="about.html" class="btn">About Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Membership plans -->
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Membership</span>
+          <h2>Choose Your Plan</h2>
+          <p>Simple pricing that fits your goals. Cancel anytime.</p>
+        </div>
+
+        <div class="grid">
+          <div class="card plan">
+            <h3>Basic</h3>
+            <div class="price">$19<small>/month</small></div>
+            <ul class="check-list">
+              <li>Gym floor access</li>
+              <li>Locker rooms</li>
+              <li>Free fitness assessment</li>
+            </ul>
+            <a href="contact.html" class="btn btn-outline">Get Started</a>
+          </div>
+          <div class="card plan featured">
+            <span class="badge">Most Popular</span>
+            <h3>Standard</h3>
+            <div class="price">$39<small>/month</small></div>
+            <ul class="check-list">
+              <li>Everything in Basic</li>
+              <li>Unlimited group classes</li>
+              <li>24/7 access</li>
+            </ul>
+            <a href="contact.html" class="btn">Get Started</a>
+          </div>
+          <div class="card plan">
+            <h3>Premium</h3>
+            <div class="price">$69<small>/month</small></div>
+            <ul class="check-list">
+              <li>Everything in Standard</li>
+              <li>4 personal training sessions</li>
+              <li>Nutrition guidance</li>
+            </ul>
+            <a href="contact.html" class="btn btn-outline">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="bg-white">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Testimonials</span>
+          <h2>What Our Members Say</h2>
+        </div>
+
+        <div class="grid">
+          <div class="card testimonial">
+            <div class="stars">★★★★★</div>
+            <p>"The trainers here actually care. I've gotten stronger in three months than I did in two years on my own."</p>
+            <strong>— Member since 2024</strong>
+          </div>
+          <div class="card testimonial">
+            <div class="stars">★★★★★</div>
+            <p>"The group classes are so much fun. I look forward to working out now instead of dreading it."</p>
+            <strong>— Member since 2025</strong>
+          </div>
+          <div class="card testimonial">
+            <div class="stars">★★★★★</div>
+            <p>"Clean, friendly, and always open when I need it. Best gym I've been a member of."</p>
+            <strong>— Member since 2023</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to action -->
+    <section class="cta">
+      <div class="container">
+        <h2>Ready to Start Your Journey?</h2>
+        <p>Your first week is on us. Come see what GYM is all about.</p>
+        <div class="btn-group">
+          <a href="contact.html" class="btn">Claim Free Week</a>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 GYM. All rights reserved.</p>
+    <div class="container">
+      <a href="index.html" class="logo">GY<span>M</span></a>
+      <p>&copy; 2026 GYM. All rights reserved.</p>
+    </div>
   </footer>
 
 </body>

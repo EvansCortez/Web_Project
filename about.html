@@ -9,64 +9,145 @@
 <body>
 
   <header>
-    <div class="logo">GYM</div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <a href="index.html" class="logo">GY<span>M</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section class="about-section">
-      <div class="about-text">
+    <!-- Page banner -->
+    <section class="page-banner about-banner">
+      <div class="container">
+        <span class="eyebrow">About Us</span>
         <h1>About the GYM</h1>
-        <p>At GYM, our mission is to make fitness accessible, engaging, and motivating for everyone. Whether you are taking your first step toward health or training for peak athletic performance, we provide the ultimate space to work out and grow.</p>
-        <p>Our facility features modern workout areas, state-of-the-art equipment, and a supportive community to keep you moving forward every day.</p>
+        <p>Making fitness accessible, engaging, and motivating for everyone.</p>
       </div>
-      <div class="about-image-wrapper">
-        <img src="img/fitness_center.jpeg" alt="Fitness Center Layout" class="featured-img">
+    </section>
+
+    <!-- Our story -->
+    <section class="bg-white">
+      <div class="container split">
+        <div>
+          <span class="eyebrow">Our Mission</span>
+          <h2>A Place to Work Out and Grow</h2>
+          <p>At GYM, our mission is to make fitness accessible, engaging, and motivating for everyone. Whether you are taking your first step toward health or training for peak athletic performance, we provide the ultimate space to work out and grow.</p>
+          <p>Our facility features modern workout areas, state-of-the-art equipment, and a supportive community to keep you moving forward every day.</p>
+          <ul class="check-list">
+            <li>Open to every fitness level</li>
+            <li>Trainers who know your name</li>
+            <li>Results you can see and feel</li>
+          </ul>
+        </div>
+        <img src="img/fitness_center.jpeg" alt="Fitness center layout">
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <div class="stats">
+      <div class="container">
+        <div class="stat"><strong>500+</strong><span>Active Members</span></div>
+        <div class="stat"><strong>20+</strong><span>Weekly Classes</span></div>
+        <div class="stat"><strong>10</strong><span>Expert Trainers</span></div>
+        <div class="stat"><strong>24/7</strong><span>Gym Access</span></div>
+      </div>
+    </div>
+
+    <!-- Classes and programs -->
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">What We Do</span>
+          <h2>Our Classes and Programs</h2>
+          <p>Programs designed for every goal, from building muscle to feeling your best.</p>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <div class="icon">🏋️</div>
+            <h3>Strength Training</h3>
+            <p>Build muscle and increase endurance with our comprehensive strength training programs.</p>
+          </div>
+          <div class="card">
+            <div class="icon">❤️</div>
+            <h3>Cardio Workouts</h3>
+            <p>Boost your cardiovascular health with high-energy cardio classes and equipment.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🎯</div>
+            <h3>Personalized Training</h3>
+            <p>Work with our expert trainers to create a customized fitness plan that fits your goals.</p>
+          </div>
+          <div class="card">
+            <div class="icon">👥</div>
+            <h3>Group Classes</h3>
+            <p>Join our engaging group classes to stay motivated and achieve your fitness goals together.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🥗</div>
+            <h3>Nutrition Guidance</h3>
+            <p>Receive personalized nutrition advice to complement your fitness routine and enhance results.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🤝</div>
+            <h3>Community Support</h3>
+            <p>Become part of a supportive community that encourages and inspires you to reach your fitness goals.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our values -->
+    <section class="bg-white">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Our Values</span>
+          <h2>What We Stand For</h2>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <div class="icon">💪</div>
+            <h3>Commitment</h3>
+            <p>We show up for our members every day, and we help them show up for themselves.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🌍</div>
+            <h3>Inclusion</h3>
+            <p>Every body is welcome here, no matter your age, size, or experience.</p>
+          </div>
+          <div class="card">
+            <div class="icon">📈</div>
+            <h3>Progress</h3>
+            <p>Small wins every day add up. We celebrate every step forward.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to action -->
+    <section class="cta">
+      <div class="container">
+        <h2>Come Train With Us</h2>
+        <p>Stop by for a tour or reach out with any questions.</p>
+        <div class="btn-group">
+          <a href="contact.html" class="btn">Contact Us</a>
+        </div>
       </div>
     </section>
   </main>
 
-  <section class="classes-programs">
-    <h2>Our Classes and Programs</h2>
-    <div class="programs-grid">
-      <div class="program-card">
-        <h3>Strength Training</h3>
-        <p>Build muscle and increase endurance with our comprehensive strength training programs.</p>
-      </div>
-      <div class="program-card">
-        <h3>Cardio Workouts</h3>
-        <p>Boost your cardiovascular health with high-energy cardio classes and equipment.</p>
-      </div>
-      <div class="program-card">
-        <h3>Personalized Training</h3>
-        <p>Work with our expert trainers to create a customized fitness plan that fits your goals.</p>      
-      </div>
-      <div class="program-card">
-        <h3>Group Classes</h3>
-        <p>Join our engaging group classes to stay motivated and achieve your fitness goals together.</p>
-      </div>
-      <div class="program-card">
-        <h3>Nutrition Guidance</h3>
-        <p>Receive personalized nutrition advice to complement your fitness routine and enhance results.</p>
-      </div>
-      <div class="program-card">
-        <h3>Community Support</h3>
-        <p>Become part of a supportive community that encourages and inspires you to reach your fitness
-  goals.</p>
-      </div>
-    </div>
-  </section>  
-
-  
-
   <footer>
-    <p>&copy; 2026 GYM. All rights reserved.</p>
+    <div class="container">
+      <a href="index.html" class="logo">GY<span>M</span></a>
+      <p>&copy; 2026 GYM. All rights reserved.</p>
+    </div>
   </footer>
 
 </body>
